@@ -1,0 +1,148 @@
+{
+    "os": "Linux-5.15.0-119-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2024-08-29T17:35:20.723433",
+    "startedAt": "2024-08-29T17:35:16.513272",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/scripts/DDPG_Continuous.py",
+    "codePathLocal": null,
+    "codePath": "src/stewart_platform/scripts/DDPG_Continuous.py",
+    "git": {
+        "remote": "git@github.com:s-ritwik/Stewart_platform_sim.git",
+        "commit": "52dbec9f23ba759bf30ad58659085ae44d4ecce6"
+    },
+    "email": "ritwiks21@iitk.ac.in",
+    "root": "/home/ritwik/catkin_ws/src/stewart_platform_learning",
+    "host": "FURY",
+    "username": "ritwik",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 12,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 1545.4330000000002,
+        "min": 800.0,
+        "max": 4580.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1503.797,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1421.079,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1327.004,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1368.273,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1374.719,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1423.27,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1359.847,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1472.397,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1432.165,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 1412.531,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 1516.466,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 1416.444,
+            "min": 800.0,
+            "max": 4900.0
+        },
+        {
+            "current": 1405.031,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1427.674,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1449.359,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1437.175,
+            "min": 800.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1495.446,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1343.307,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1404.615,
+            "min": 800.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1429.795,
+            "min": 800.0,
+            "max": 3600.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 136.87414169311523,
+            "used": 102.91450881958008
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060",
+            "memory_total": 12884901888
+        }
+    ],
+    "memory": {
+        "total": 15.388397216796875
+    }
+}

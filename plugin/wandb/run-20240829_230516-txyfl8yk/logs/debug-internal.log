@@ -1,0 +1,187 @@
+2024-08-29 23:05:16,520 INFO    StreamThr :18860 [internal.py:wandb_internal():85] W&B internal server running at pid: 18860, started at: 2024-08-29 23:05:16.519561
+2024-08-29 23:05:16,521 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: status
+2024-08-29 23:05:16,524 INFO    WriterThread:18860 [datastore.py:open_for_write():87] open: /home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/plugin/wandb/run-20240829_230516-txyfl8yk/run-txyfl8yk.wandb
+2024-08-29 23:05:16,524 DEBUG   SenderThread:18860 [sender.py:send():391] send: header
+2024-08-29 23:05:16,533 DEBUG   SenderThread:18860 [sender.py:send():391] send: run
+2024-08-29 23:05:17,245 INFO    SenderThread:18860 [dir_watcher.py:__init__():211] watching files in: /home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/plugin/wandb/run-20240829_230516-txyfl8yk/files
+2024-08-29 23:05:17,246 INFO    SenderThread:18860 [sender.py:_start_run_threads():1200] run started: txyfl8yk with start time 1724952916.519668
+2024-08-29 23:05:17,253 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: check_version
+2024-08-29 23:05:17,254 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: check_version
+2024-08-29 23:05:20,336 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: run_start
+2024-08-29 23:05:20,363 DEBUG   HandlerThread:18860 [system_info.py:__init__():26] System info init
+2024-08-29 23:05:20,363 DEBUG   HandlerThread:18860 [system_info.py:__init__():41] System info init done
+2024-08-29 23:05:20,363 INFO    HandlerThread:18860 [system_monitor.py:start():194] Starting system monitor
+2024-08-29 23:05:20,363 INFO    SystemMonitor:18860 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-08-29 23:05:20,363 INFO    HandlerThread:18860 [system_monitor.py:probe():214] Collecting system info
+2024-08-29 23:05:20,364 INFO    SystemMonitor:18860 [interfaces.py:start():188] Started cpu monitoring
+2024-08-29 23:05:20,364 INFO    SystemMonitor:18860 [interfaces.py:start():188] Started disk monitoring
+2024-08-29 23:05:20,365 INFO    SystemMonitor:18860 [interfaces.py:start():188] Started gpu monitoring
+2024-08-29 23:05:20,365 ERROR   disk      :18860 [interfaces.py:monitor():142] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 1 0 0 0 0 0 12 1 0 0 0 0 0 0\n'
+2024-08-29 23:05:20,366 INFO    SystemMonitor:18860 [interfaces.py:start():188] Started memory monitoring
+2024-08-29 23:05:20,366 ERROR   disk      :18860 [interfaces.py:monitor():142] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 1 0 0 0 0 0 12 1 0 0 0 0 0 0\n'
+2024-08-29 23:05:20,367 INFO    SystemMonitor:18860 [interfaces.py:start():188] Started network monitoring
+2024-08-29 23:05:20,723 DEBUG   HandlerThread:18860 [system_info.py:probe():152] Probing system
+2024-08-29 23:05:20,730 DEBUG   HandlerThread:18860 [system_info.py:_probe_git():137] Probing git
+2024-08-29 23:05:20,742 DEBUG   HandlerThread:18860 [system_info.py:_probe_git():145] Probing git done
+2024-08-29 23:05:20,742 DEBUG   HandlerThread:18860 [system_info.py:probe():200] Probing system done
+2024-08-29 23:05:20,742 DEBUG   HandlerThread:18860 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-119-generic-x86_64-with-glibc2.29', 'python': '3.8.10', 'heartbeatAt': '2024-08-29T17:35:20.723433', 'startedAt': '2024-08-29T17:35:16.513272', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/scripts/DDPG_Continuous.py', 'codePathLocal': None, 'codePath': 'src/stewart_platform/scripts/DDPG_Continuous.py', 'git': {'remote': 'git@github.com:s-ritwik/Stewart_platform_sim.git', 'commit': '52dbec9f23ba759bf30ad58659085ae44d4ecce6'}, 'email': 'ritwiks21@iitk.ac.in', 'root': '/home/ritwik/catkin_ws/src/stewart_platform_learning', 'host': 'FURY', 'username': 'ritwik', 'executable': '/usr/bin/python3', 'cpu_count': 12, 'cpu_count_logical': 20, 'cpu_freq': {'current': 1545.4330000000002, 'min': 800.0, 'max': 4580.0}, 'cpu_freq_per_core': [{'current': 1503.797, 'min': 800.0, 'max': 4800.0}, {'current': 1421.079, 'min': 800.0, 'max': 4800.0}, {'current': 1327.004, 'min': 800.0, 'max': 4800.0}, {'current': 1368.273, 'min': 800.0, 'max': 4800.0}, {'current': 1374.719, 'min': 800.0, 'max': 4800.0}, {'current': 1423.27, 'min': 800.0, 'max': 4800.0}, {'current': 1359.847, 'min': 800.0, 'max': 4800.0}, {'current': 1472.397, 'min': 800.0, 'max': 4800.0}, {'current': 1432.165, 'min': 800.0, 'max': 4900.0}, {'current': 1412.531, 'min': 800.0, 'max': 4900.0}, {'current': 1516.466, 'min': 800.0, 'max': 4900.0}, {'current': 1416.444, 'min': 800.0, 'max': 4900.0}, {'current': 1405.031, 'min': 800.0, 'max': 4800.0}, {'current': 1427.674, 'min': 800.0, 'max': 4800.0}, {'current': 1449.359, 'min': 800.0, 'max': 4800.0}, {'current': 1437.175, 'min': 800.0, 'max': 4800.0}, {'current': 1495.446, 'min': 800.0, 'max': 3600.0}, {'current': 1343.307, 'min': 800.0, 'max': 3600.0}, {'current': 1404.615, 'min': 800.0, 'max': 3600.0}, {'current': 1429.795, 'min': 800.0, 'max': 3600.0}], 'disk': {'/': {'total': 136.87414169311523, 'used': 102.91450881958008}}, 'gpu': 'NVIDIA GeForce RTX 3060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060', 'memory_total': 12884901888}], 'memory': {'total': 15.388397216796875}}
+2024-08-29 23:05:20,742 INFO    HandlerThread:18860 [system_monitor.py:probe():224] Finished collecting system info
+2024-08-29 23:05:20,742 INFO    HandlerThread:18860 [system_monitor.py:probe():227] Publishing system info
+2024-08-29 23:05:20,742 INFO    HandlerThread:18860 [system_monitor.py:probe():229] Finished publishing system info
+2024-08-29 23:05:20,746 DEBUG   SenderThread:18860 [sender.py:send():391] send: files
+2024-08-29 23:05:20,746 INFO    SenderThread:18860 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-08-29 23:05:20,875 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: python_packages
+2024-08-29 23:05:20,876 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: python_packages
+2024-08-29 23:05:20,876 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-29 23:05:20,876 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: stop_status
+2024-08-29 23:05:20,877 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-29 23:05:21,224 DEBUG   SenderThread:18860 [sender.py:send():391] send: telemetry
+2024-08-29 23:05:21,226 DEBUG   SenderThread:18860 [sender.py:send():391] send: exit
+2024-08-29 23:05:21,226 INFO    SenderThread:18860 [sender.py:send_exit():598] handling exit code: 1
+2024-08-29 23:05:21,227 INFO    SenderThread:18860 [sender.py:send_exit():600] handling runtime: 0
+2024-08-29 23:05:21,228 INFO    SenderThread:18860 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-29 23:05:21,228 INFO    SenderThread:18860 [sender.py:send_exit():606] send defer
+2024-08-29 23:05:21,228 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: defer
+2024-08-29 23:05:21,228 INFO    HandlerThread:18860 [handler.py:handle_request_defer():184] handle defer: 0
+2024-08-29 23:05:21,228 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: defer
+2024-08-29 23:05:21,228 INFO    SenderThread:18860 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-08-29 23:05:21,228 INFO    SenderThread:18860 [sender.py:transition_state():626] send defer: 1
+2024-08-29 23:05:21,229 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: defer
+2024-08-29 23:05:21,229 INFO    HandlerThread:18860 [handler.py:handle_request_defer():184] handle defer: 1
+2024-08-29 23:05:21,229 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: defer
+2024-08-29 23:05:21,229 INFO    SenderThread:18860 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-08-29 23:05:21,229 INFO    SenderThread:18860 [sender.py:transition_state():626] send defer: 2
+2024-08-29 23:05:21,229 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: defer
+2024-08-29 23:05:21,229 INFO    HandlerThread:18860 [handler.py:handle_request_defer():184] handle defer: 2
+2024-08-29 23:05:21,229 INFO    HandlerThread:18860 [system_monitor.py:finish():203] Stopping system monitor
+2024-08-29 23:05:21,229 DEBUG   SystemMonitor:18860 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-08-29 23:05:21,229 INFO    HandlerThread:18860 [interfaces.py:finish():200] Joined cpu monitor
+2024-08-29 23:05:21,229 DEBUG   SystemMonitor:18860 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-08-29 23:05:21,230 INFO    HandlerThread:18860 [interfaces.py:finish():200] Joined disk monitor
+2024-08-29 23:05:21,230 DEBUG   SystemMonitor:18860 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-08-29 23:05:21,248 INFO    Thread-12 :18860 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/plugin/wandb/run-20240829_230516-txyfl8yk/files/wandb-metadata.json
+2024-08-29 23:05:21,248 INFO    Thread-12 :18860 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/plugin/wandb/run-20240829_230516-txyfl8yk/files/wandb-summary.json
+2024-08-29 23:05:21,248 INFO    Thread-12 :18860 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/plugin/wandb/run-20240829_230516-txyfl8yk/files/output.log
+2024-08-29 23:05:21,249 INFO    Thread-12 :18860 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/plugin/wandb/run-20240829_230516-txyfl8yk/files/requirements.txt
+2024-08-29 23:05:21,274 INFO    HandlerThread:18860 [interfaces.py:finish():200] Joined gpu monitor
+2024-08-29 23:05:21,274 INFO    HandlerThread:18860 [interfaces.py:finish():200] Joined memory monitor
+2024-08-29 23:05:21,274 INFO    HandlerThread:18860 [interfaces.py:finish():200] Joined network monitor
+2024-08-29 23:05:21,274 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: defer
+2024-08-29 23:05:21,274 INFO    SenderThread:18860 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-08-29 23:05:21,274 INFO    SenderThread:18860 [sender.py:transition_state():626] send defer: 3
+2024-08-29 23:05:21,274 DEBUG   SenderThread:18860 [sender.py:send():391] send: stats
+2024-08-29 23:05:21,275 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: defer
+2024-08-29 23:05:21,275 INFO    HandlerThread:18860 [handler.py:handle_request_defer():184] handle defer: 3
+2024-08-29 23:05:21,275 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: defer
+2024-08-29 23:05:21,275 INFO    SenderThread:18860 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-08-29 23:05:21,275 INFO    SenderThread:18860 [sender.py:transition_state():626] send defer: 4
+2024-08-29 23:05:21,275 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: defer
+2024-08-29 23:05:21,275 INFO    HandlerThread:18860 [handler.py:handle_request_defer():184] handle defer: 4
+2024-08-29 23:05:21,275 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: defer
+2024-08-29 23:05:21,275 INFO    SenderThread:18860 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-08-29 23:05:21,275 INFO    SenderThread:18860 [sender.py:transition_state():626] send defer: 5
+2024-08-29 23:05:21,275 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: defer
+2024-08-29 23:05:21,275 INFO    HandlerThread:18860 [handler.py:handle_request_defer():184] handle defer: 5
+2024-08-29 23:05:21,275 DEBUG   SenderThread:18860 [sender.py:send():391] send: summary
+2024-08-29 23:05:21,275 INFO    SenderThread:18860 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-29 23:05:21,275 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: defer
+2024-08-29 23:05:21,275 INFO    SenderThread:18860 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-08-29 23:05:21,275 INFO    SenderThread:18860 [sender.py:transition_state():626] send defer: 6
+2024-08-29 23:05:21,276 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: defer
+2024-08-29 23:05:21,276 INFO    HandlerThread:18860 [handler.py:handle_request_defer():184] handle defer: 6
+2024-08-29 23:05:21,276 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: defer
+2024-08-29 23:05:21,276 INFO    SenderThread:18860 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-08-29 23:05:21,278 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: status_report
+2024-08-29 23:05:21,850 INFO    SenderThread:18860 [sender.py:transition_state():626] send defer: 7
+2024-08-29 23:05:21,850 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: defer
+2024-08-29 23:05:21,851 INFO    HandlerThread:18860 [handler.py:handle_request_defer():184] handle defer: 7
+2024-08-29 23:05:21,851 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: defer
+2024-08-29 23:05:21,851 INFO    SenderThread:18860 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-08-29 23:05:21,867 INFO    wandb-upload_0:18860 [upload_job.py:push():130] Uploaded file /tmp/tmpebccl8pjwandb/gw05thyp-wandb-metadata.json
+2024-08-29 23:05:22,047 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-29 23:05:22,247 INFO    Thread-12 :18860 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/plugin/wandb/run-20240829_230516-txyfl8yk/files/config.yaml
+2024-08-29 23:05:22,248 INFO    Thread-12 :18860 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/plugin/wandb/run-20240829_230516-txyfl8yk/files/wandb-summary.json
+2024-08-29 23:05:23,244 INFO    SenderThread:18860 [sender.py:transition_state():626] send defer: 8
+2024-08-29 23:05:23,245 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: poll_exit
+2024-08-29 23:05:23,245 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: defer
+2024-08-29 23:05:23,245 INFO    HandlerThread:18860 [handler.py:handle_request_defer():184] handle defer: 8
+2024-08-29 23:05:23,246 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: defer
+2024-08-29 23:05:23,246 INFO    SenderThread:18860 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-08-29 23:05:23,246 INFO    SenderThread:18860 [job_builder.py:build():440] Attempting to build job artifact
+2024-08-29 23:05:23,247 INFO    SenderThread:18860 [job_builder.py:_get_source_type():569] is repo sourced job
+2024-08-29 23:05:23,248 INFO    Thread-12 :18860 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/plugin/wandb/run-20240829_230516-txyfl8yk/files/output.log
+2024-08-29 23:05:23,272 INFO    SenderThread:18860 [job_builder.py:build():545] adding wandb-job metadata file
+2024-08-29 23:05:23,274 INFO    SenderThread:18860 [sender.py:transition_state():626] send defer: 9
+2024-08-29 23:05:23,275 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: defer
+2024-08-29 23:05:23,275 DEBUG   SenderThread:18860 [sender.py:send():391] send: artifact
+2024-08-29 23:05:23,275 INFO    HandlerThread:18860 [handler.py:handle_request_defer():184] handle defer: 9
+2024-08-29 23:05:24,049 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-29 23:05:24,884 INFO    SenderThread:18860 [sender.py:send_artifact():1549] sent artifact job-git_github.com_s-ritwik_Stewart_platform_sim.git_src_stewart_platform_scripts_DDPG_Continuous.py - {'id': 'QXJ0aWZhY3Q6MTE3MTMzODcyMw==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQxODQ3MDA3Mg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTE3MTMzODcyMw==', 'versionIndex': 0}}}
+2024-08-29 23:05:24,884 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: defer
+2024-08-29 23:05:24,884 INFO    SenderThread:18860 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-08-29 23:05:24,884 INFO    SenderThread:18860 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-08-29 23:05:25,249 INFO    SenderThread:18860 [dir_watcher.py:finish():388] scan: /home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/plugin/wandb/run-20240829_230516-txyfl8yk/files
+2024-08-29 23:05:25,249 INFO    SenderThread:18860 [dir_watcher.py:finish():402] scan save: /home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/plugin/wandb/run-20240829_230516-txyfl8yk/files/wandb-summary.json wandb-summary.json
+2024-08-29 23:05:25,249 INFO    SenderThread:18860 [dir_watcher.py:finish():402] scan save: /home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/plugin/wandb/run-20240829_230516-txyfl8yk/files/config.yaml config.yaml
+2024-08-29 23:05:25,249 INFO    SenderThread:18860 [dir_watcher.py:finish():402] scan save: /home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/plugin/wandb/run-20240829_230516-txyfl8yk/files/requirements.txt requirements.txt
+2024-08-29 23:05:25,250 INFO    SenderThread:18860 [dir_watcher.py:finish():402] scan save: /home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/plugin/wandb/run-20240829_230516-txyfl8yk/files/wandb-metadata.json wandb-metadata.json
+2024-08-29 23:05:25,250 INFO    SenderThread:18860 [dir_watcher.py:finish():402] scan save: /home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/plugin/wandb/run-20240829_230516-txyfl8yk/files/output.log output.log
+2024-08-29 23:05:25,253 INFO    SenderThread:18860 [sender.py:transition_state():626] send defer: 10
+2024-08-29 23:05:25,254 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: poll_exit
+2024-08-29 23:05:25,254 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: defer
+2024-08-29 23:05:25,257 INFO    HandlerThread:18860 [handler.py:handle_request_defer():184] handle defer: 10
+2024-08-29 23:05:25,264 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: defer
+2024-08-29 23:05:25,265 INFO    SenderThread:18860 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-08-29 23:05:25,265 INFO    SenderThread:18860 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-29 23:05:25,961 INFO    wandb-upload_0:18860 [upload_job.py:push():130] Uploaded file /home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/plugin/wandb/run-20240829_230516-txyfl8yk/files/config.yaml
+2024-08-29 23:05:26,051 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-29 23:05:26,052 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: poll_exit
+2024-08-29 23:05:26,056 INFO    wandb-upload_1:18860 [upload_job.py:push():130] Uploaded file /home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/plugin/wandb/run-20240829_230516-txyfl8yk/files/wandb-summary.json
+2024-08-29 23:05:26,095 INFO    wandb-upload_2:18860 [upload_job.py:push():130] Uploaded file /home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/plugin/wandb/run-20240829_230516-txyfl8yk/files/requirements.txt
+2024-08-29 23:05:27,052 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: status_report
+2024-08-29 23:05:27,053 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-29 23:05:27,054 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: poll_exit
+2024-08-29 23:05:27,121 INFO    wandb-upload_3:18860 [upload_job.py:push():130] Uploaded file /home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/plugin/wandb/run-20240829_230516-txyfl8yk/files/output.log
+2024-08-29 23:05:27,322 INFO    Thread-11 :18860 [sender.py:transition_state():626] send defer: 11
+2024-08-29 23:05:27,322 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: defer
+2024-08-29 23:05:27,323 INFO    HandlerThread:18860 [handler.py:handle_request_defer():184] handle defer: 11
+2024-08-29 23:05:27,323 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: defer
+2024-08-29 23:05:27,324 INFO    SenderThread:18860 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-08-29 23:05:27,324 INFO    SenderThread:18860 [file_pusher.py:join():175] waiting for file pusher
+2024-08-29 23:05:27,324 INFO    SenderThread:18860 [sender.py:transition_state():626] send defer: 12
+2024-08-29 23:05:27,324 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: defer
+2024-08-29 23:05:27,324 INFO    HandlerThread:18860 [handler.py:handle_request_defer():184] handle defer: 12
+2024-08-29 23:05:27,325 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: defer
+2024-08-29 23:05:27,325 INFO    SenderThread:18860 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-08-29 23:05:27,325 INFO    SenderThread:18860 [file_stream.py:finish():601] file stream finish called
+2024-08-29 23:05:27,646 INFO    SenderThread:18860 [file_stream.py:finish():605] file stream finish is done
+2024-08-29 23:05:27,646 INFO    SenderThread:18860 [sender.py:transition_state():626] send defer: 13
+2024-08-29 23:05:27,646 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: defer
+2024-08-29 23:05:27,646 INFO    HandlerThread:18860 [handler.py:handle_request_defer():184] handle defer: 13
+2024-08-29 23:05:27,647 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: defer
+2024-08-29 23:05:27,647 INFO    SenderThread:18860 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-08-29 23:05:27,647 INFO    SenderThread:18860 [sender.py:transition_state():626] send defer: 14
+2024-08-29 23:05:27,648 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: defer
+2024-08-29 23:05:27,648 DEBUG   SenderThread:18860 [sender.py:send():391] send: final
+2024-08-29 23:05:27,648 DEBUG   SenderThread:18860 [sender.py:send():391] send: footer
+2024-08-29 23:05:27,648 INFO    HandlerThread:18860 [handler.py:handle_request_defer():184] handle defer: 14
+2024-08-29 23:05:27,649 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: defer
+2024-08-29 23:05:27,649 INFO    SenderThread:18860 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-08-29 23:05:27,649 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-29 23:05:27,650 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: poll_exit
+2024-08-29 23:05:27,650 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: server_info
+2024-08-29 23:05:27,651 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-29 23:05:27,651 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: get_summary
+2024-08-29 23:05:27,651 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: server_info
+2024-08-29 23:05:27,655 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: sampled_history
+2024-08-29 23:05:27,655 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-29 23:05:27,953 DEBUG   SenderThread:18860 [sender.py:send_request():418] send_request: poll_exit
+2024-08-29 23:05:27,954 INFO    MainThread:18860 [wandb_run.py:_footer_history_summary_info():4035] rendering history
+2024-08-29 23:05:27,954 INFO    MainThread:18860 [wandb_run.py:_footer_history_summary_info():4067] rendering summary
+2024-08-29 23:05:27,954 INFO    MainThread:18860 [wandb_run.py:_footer_sync_info():3994] logging synced files
+2024-08-29 23:05:27,954 DEBUG   HandlerThread:18860 [handler.py:handle_request():158] handle_request: shutdown
+2024-08-29 23:05:27,954 INFO    HandlerThread:18860 [handler.py:finish():882] shutting down handler
+2024-08-29 23:05:28,651 INFO    WriterThread:18860 [datastore.py:close():296] close: /home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/plugin/wandb/run-20240829_230516-txyfl8yk/run-txyfl8yk.wandb
+2024-08-29 23:05:28,954 INFO    SenderThread:18860 [sender.py:finish():1631] shutting down sender
+2024-08-29 23:05:28,954 INFO    SenderThread:18860 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-29 23:05:28,954 INFO    SenderThread:18860 [file_pusher.py:join():175] waiting for file pusher

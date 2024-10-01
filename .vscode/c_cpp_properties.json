@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ritwik/catkin_ws/devel_isolated/precision_landing_using_vision/include/**",
+        "/home/ritwik/catkin_ws/devel_isolated/mavros_msgs/include/**",
+        "/home/ritwik/catkin_ws/devel_isolated/mavlink/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/ritwik/catkin_ws/src/mavros/libmavconn/include/**",
+        "/home/ritwik/catkin_ws/src/mavros/mavros/include/**",
+        "/home/ritwik/catkin_ws/src/mavros/mavros_msgs/include/**",
+        "/home/ritwik/catkin_ws/src/mavros/test_mavros/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,26 @@
+<!-- export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:~/catkin_ws/devel/lib -->
+
+<launch>
+  <!-- Load Gazebo with the Stewart platform -->
+  <arg name="paused" default="false"/>
+  <arg name="use_sim_time" default="true"/>
+  <arg name="gui" default="true"/>
+  <arg name="headless" default="false"/>
+  <arg name="world_name" default="$(find gazebo_ros)/worlds/empty.world"/>
+
+  <!-- Gazebo server -->
+  <node name="gazebo" pkg="gazebo_ros" type="gzserver" args="-s libgazebo_ros_factory.so $(arg world_name)" output="screen"/>
+
+  <!-- Gazebo client for the GUI -->
+  <node name="gazebo_gui" pkg="gazebo_ros" type="gzclient" output="screen" if="$(arg gui)"/>
+
+  <!-- Spawn the Stewart platform model -->
+  <node name="spawn_model" pkg="gazebo_ros" type="spawn_model" args="-file $(find test_stewart)/models/stewart/stewart_sdf.sdf -sdf -model stewart_platform" output="screen"/>
+  <node name="controller_platform_init" pkg="stewart_platform_learning" type="src/stewart_platform/scripts/DDPG_Continuous.py" output="screen"/>
+
+  <!-- Controller (Python) node to send commands to the platform -->
+  <node name="controller_platform" pkg="test_stewart" type="controller_platform.py" output="screen"/>
+
+  <!-- Inverse Kinematics (C++) node for platform movements -->
+  <node name="ik_controller" pkg="test_stewart" type="ik" output="screen"/>
+</launch>

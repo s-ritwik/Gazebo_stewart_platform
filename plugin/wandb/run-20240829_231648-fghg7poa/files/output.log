@@ -1,0 +1,41 @@
+Entered stewart pose Env
+Entered Stewart Env
+launch the init function of the Parent Class robot_gazebo_env_goal.RobotGazeboEnv.....
+launch the init function of the Parent Class robot_gazebo_env_goal.RobotGazeboEnv.....END
+check_all_sensors_ready checked..
+/home/ritwik/.local/lib/python3.8/site-packages/gym/spaces/box.py:127: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+[33m[WARN] [1724953610.446410, 0.005000]: Start Init ControllersConnection
+[33m[WARN] [1724953610.449361, 0.005000]: END Init ControllersConnection
+Traceback (most recent call last):
+  File "/home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/scripts/DDPG_Continuous.py", line 237, in <module>
+    main()
+  File "/home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/scripts/DDPG_Continuous.py", line 231, in main
+    env = gym.make(env_name)
+  File "/home/ritwik/.local/lib/python3.8/site-packages/gym/envs/registration.py", line 640, in make
+    env = env_creator(**_kwargs)
+  File "/home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/scripts/reaching_pose_env.py", line 36, in __init__
+    super(PoseSetEnv, self).__init__()
+  File "/home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/scripts/stewart_env.py", line 57, in __init__
+    self.gazebo.pauseSim()
+  File "/home/ritwik/catkin_ws/src/stewart_platform_learning/src/openai_ros/openai_ros/src/openai_ros/gazebo_connection.py", line 35, in pauseSim
+    rospy.wait_for_service('/gazebo/pause_physics')
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_service.py", line 166, in wait_for_service
+    raise ROSInterruptException("rospy shutdown")
+rospy.exceptions.ROSInterruptException: rospy shutdown
+Traceback (most recent call last):
+  File "/home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/scripts/DDPG_Continuous.py", line 237, in <module>
+    main()
+  File "/home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/scripts/DDPG_Continuous.py", line 231, in main
+    env = gym.make(env_name)
+  File "/home/ritwik/.local/lib/python3.8/site-packages/gym/envs/registration.py", line 640, in make
+    env = env_creator(**_kwargs)
+  File "/home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/scripts/reaching_pose_env.py", line 36, in __init__
+    super(PoseSetEnv, self).__init__()
+  File "/home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/scripts/stewart_env.py", line 57, in __init__
+    self.gazebo.pauseSim()
+  File "/home/ritwik/catkin_ws/src/stewart_platform_learning/src/openai_ros/openai_ros/src/openai_ros/gazebo_connection.py", line 35, in pauseSim
+    rospy.wait_for_service('/gazebo/pause_physics')
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_service.py", line 166, in wait_for_service
+    raise ROSInterruptException("rospy shutdown")
+rospy.exceptions.ROSInterruptException: rospy shutdown

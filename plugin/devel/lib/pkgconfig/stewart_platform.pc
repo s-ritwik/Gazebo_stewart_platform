@@ -1,0 +1,8 @@
+prefix=/home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/plugin/devel
+
+Name: stewart_platform
+Description: Description of stewart_platform
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

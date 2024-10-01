@@ -1,0 +1,35 @@
+
+Unable to register with master node [http://localhost:11311]: master may not be running yet. Will keep trying.
+Entered stewart pose Env
+Traceback (most recent call last):
+  File "/home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/scripts/DDPG_Continuous.py", line 237, in <module>
+    main()
+  File "/home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/scripts/DDPG_Continuous.py", line 231, in main
+    env = gym.make(env_name)
+  File "/home/ritwik/.local/lib/python3.8/site-packages/gym/envs/registration.py", line 640, in make
+    env = env_creator(**_kwargs)
+  File "/home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/scripts/reaching_pose_env.py", line 26, in __init__
+    self.get_params()
+  File "/home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/scripts/reaching_pose_env.py", line 56, in get_params
+    self.reach_x = rospy.get_param("/reaching_task/reach_x")
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 467, in get_param
+    return _param_server[param_name] #MasterProxy does all the magic for us
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 123, in __getitem__
+    raise KeyError(key)
+KeyError: '/reaching_task/reach_x'
+Traceback (most recent call last):
+  File "/home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/scripts/DDPG_Continuous.py", line 237, in <module>
+    main()
+  File "/home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/scripts/DDPG_Continuous.py", line 231, in main
+    env = gym.make(env_name)
+  File "/home/ritwik/.local/lib/python3.8/site-packages/gym/envs/registration.py", line 640, in make
+    env = env_creator(**_kwargs)
+  File "/home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/scripts/reaching_pose_env.py", line 26, in __init__
+    self.get_params()
+  File "/home/ritwik/catkin_ws/src/stewart_platform_learning/src/stewart_platform/scripts/reaching_pose_env.py", line 56, in get_params
+    self.reach_x = rospy.get_param("/reaching_task/reach_x")
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 467, in get_param
+    return _param_server[param_name] #MasterProxy does all the magic for us
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 123, in __getitem__
+    raise KeyError(key)
+KeyError: '/reaching_task/reach_x'

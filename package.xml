@@ -1,0 +1,21 @@
+<package format="2">
+  <name>test_stewart</name>
+  <version>0.0.0</version>
+  <description>Stewart platform simulation</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>gazebo_ros</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <build_depend>gazebo_ros</build_depend>
+    <exec_depend>gazebo_ros</exec_depend>
+    <build_depend>gazebo_dev</build_depend>
+    <exec_depend>gazebo_dev</exec_depend>
+
+</package>

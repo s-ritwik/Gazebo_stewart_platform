@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ritwik/catkin_ws/devel_isolated/precision_landing_using_vision/lib/python3/dist-packages",
+        "/home/ritwik/catkin_ws/devel_isolated/mavros/lib/python3/dist-packages",
+        "/home/ritwik/catkin_ws/devel_isolated/mavros_msgs/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ritwik/catkin_ws/devel_isolated/precision_landing_using_vision/lib/python3/dist-packages",
+        "/home/ritwik/catkin_ws/devel_isolated/mavros/lib/python3/dist-packages",
+        "/home/ritwik/catkin_ws/devel_isolated/mavros_msgs/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}
